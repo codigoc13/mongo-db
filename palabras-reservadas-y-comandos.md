@@ -14,3 +14,8 @@
 ### Glosario
 - **Documento:** Es equivalente a un registro en una base de datos relacional.
 - **Colección:** Es equivalente a una tabla en una base de datos relacional.
+- **Operaciones CRUD:** 
+  - **C**reate - Crear
+  - **R**eade - Leer    
+  - **U**pdate - Actualizar   
+  - **D**elete - Eliminar   

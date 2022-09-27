@@ -4,11 +4,13 @@
 - `db` Informa la base de datos que se está usando o se tiene elegida.
 - `show dbs` Muestra las bases de datos que se han creado (Si se crea una base de datos pero no se le ingresa aún nada, no se mostrará con este comando).
 - `insertOne` Inserta un registro en una colección.
+- `insertMany` Inserta un o varios registro en una colección.
 
 ## Comandos
 
 
--  `db.movie.insertOne({"Doc1":"Start Wars"})`: Inserta un documento en una colección(movie) de la base de datos en uso. Si la colección no existe, la crea.
+-  `db.movie.insertOne({"Doc1":"Start Wars"})`: Inserta un documento en una colección (movie) de la base de datos en uso. Si la colección no existe, la crea.
+-  `db.movie.insertMany([{"Pelicula":"El libro de la selva", "anio":1987}, {"Pelicula":"La ballena azul"}])`: Inserta dos documentos en la colección (movie) en la base de datos que esté en uso.
 
 
 ### Glosario
